@@ -15,24 +15,24 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #8FB7D4;
-  --cd-primary-text-color:               #fff;
+  --cd-primary-color:                    #2fa04b;
+  --cd-primary-text-color:               #000000;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #939799;
+  --cd-secondary-color:                  #39d846;
   --cd-secondary-text-color:             #fff;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #f8f8f8;
-  --cd-content-background-color:         #ffffff;
-  --cd-faded-background-color:           #f8f8f8;
+  --cd-body-background-color:            #c6f1a8;
+  --cd-content-background-color:         #f1f5e9;
+  --cd-faded-background-color:           #d2e7a9;
 
   /* Background Extras */
-  --cd-body-background-image:             url();
+  background-image:             url(https://file.garden/XLPrl9xwREbQVwkR/Species%20Images/Insectoplants/post_species_bg.png) !important;
 
   /* ============================================================= */
   /* Text
@@ -51,7 +51,7 @@ body {
   /* ============================================================= */
   /* Navbar
   ================================================================ */
-  --cd-navbar-background-color:          #222222;
+  --cd-navbar-background-color:          #2f2f49;
   --cd-navbar-brand-color:               var(--cd-primary-color);
   --cd-navbar-brand-color-hover:         var(--cd-secondary-color);
   --cd-navbar-text-color:                var(--cd-content-background-color);
@@ -105,7 +105,7 @@ body {
   /* Link
   ================================================================ */
 
-  --cd-link-text-color:                  #4c8ebd;
+  --cd-link-text-color:                  #39d846;
   --cd-link-text-color-hover:            var(--cd-secondary-color);
 
 
@@ -195,30 +195,6 @@ body {
 
 }
 
-body.dark {
-  /* ============================================================= */
-  /* Backgrounds
-  ================================================================ */
-  --cd-body-background-color:            #2e2e2e;
-  --cd-content-background-color:         #313131;
-  --cd-faded-background-color:           #2a2a2a;
-
-  /* Background Extras */
-  --cd-body-background-image:              url();
-
-  /* ============================================================= */
-  /* Text
-  ================================================================ */
-  --cd-body-text-color:                  #f0f0f0;
-  --cd-faded-text-color:                 #a8a8a8;
-  --cd-navbar-text-color:                var(--cd-faded-text-color);
-  --cd-link-text-color:                  var(--cd-primary-color);
-
-  /* ============================================================= */
-  /* Borders
-  ================================================================ */
-  --cd-border-color:                     rgba(255,255,255,.12);
-}
 
 
 /* ============================================================= */
